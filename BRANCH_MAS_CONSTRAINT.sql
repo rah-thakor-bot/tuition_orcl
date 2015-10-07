@@ -1,0 +1,15 @@
+--------------------------------------------------------
+--  Constraints for Table BRANCH_MAS
+--------------------------------------------------------
+
+  ALTER TABLE "HR"."BRANCH_MAS" MODIFY ("BRANCH_ID" NOT NULL ENABLE);
+ 
+  ALTER TABLE "HR"."BRANCH_MAS" MODIFY ("BRANCH_NAME" NOT NULL ENABLE);
+ 
+  ALTER TABLE "HR"."BRANCH_MAS" MODIFY ("ENT_DATE" NOT NULL ENABLE);
+ 
+  ALTER TABLE "HR"."BRANCH_MAS" MODIFY ("ENT_USER" NOT NULL ENABLE);
+ 
+  ALTER TABLE "HR"."BRANCH_MAS" MODIFY ("ENT_TERM" NOT NULL ENABLE);
+ 
+  ALTER TABLE "HR"."BRANCH_MAS" MODIFY ("TIME_STAMP" NOT NULL ENABLE);
